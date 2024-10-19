@@ -1,0 +1,56 @@
+
+
+.navbar {
+  background-color: #6c757d;
+}
+
+.logo {
+  flex: 100 !important;
+  font-size: 30px !important;
+  font-weight: 700;
+  color: white !important;
+}
+
+.nav-item a {
+  color: white !important;
+  transition: 0.4s !important;
+}
+.nav-item a:hover {
+  border: 1px solid white !important;
+  border-top-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.section1{
+  background-color: #dee2e6;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------MEDIA QURY-------------- */
+
+
+@media only screen and (max-width: 990px) {
+  .myCon {
+    text-align: center !important;
+  }
+  .nav-item a {
+    color: white !important;
+    transition: 0.4s !important;
+  }
+  .nav-item a:hover {
+    border: 1px solid white !important;
+    border-top-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+  }
+}
