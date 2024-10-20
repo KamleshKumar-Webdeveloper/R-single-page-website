@@ -1,5 +1,11 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
 .navbar {
   background-color: #6c757d;
 }
@@ -21,24 +27,56 @@
   border-bottom-right-radius: 15px !important;
 }
 
-.section1{
+.section1 {
   background-color: #dee2e6;
-  height: 100vh;
+  height: auto;
 }
 
+h2 {
+  font-size: 48px !important;
+  font-weight: 800 !important;
+  color: #212529;
+}
 
+.paragraph {
+  font-size: 18px !important;
+  color: #6c757d !important;
+}
 
+.sign-btn {
+  background-color: #212529 !important;
+  border: none;
+  color: white !important;
+  border-radius: 10px;
+}
 
+#btn3 {
+  border-radius: 10px;
+  background-color: #dee2e6;
+  border: 1px solid #6c757d;
+}
 
+.card {
+  background-color: #212529 !important;
+  border-radius: 15px !important;
+}
 
+.card-head {
+  color: white !important;
+  height: 50px !important;
+}
+.cards-para {
+  color: white !important;
+  font-size: 25px;
+  font-weight: 300 !important;
+}
 
-
-
-
-
+.lft-card{
+  background-color: #dee2e6 !important;
+ border: none !important;
+}
 
 /* --------------MEDIA QURY-------------- */
-
 
 @media only screen and (max-width: 990px) {
   .myCon {
@@ -52,5 +90,95 @@
     border: 1px solid white !important;
     border-top-left-radius: 30px !important;
     border-bottom-right-radius: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sec1-img {
+    margin: auto !important;
+  }
+  .image {
+    margin: auto !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  h2 {
+    font-size: 40px !important;
+  }
+  .paragraph {
+    font-size: 16px !important;
+  }
+  #btn1 {
+    width: 95px !important;
+    font-size: 12px !important;
+  }
+
+  #btn2 {
+    width: 88px !important;
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  h2 {
+    font-size: 35px !important;
+  }
+  .paragraph {
+    font-size: 14px !important;
+  }
+  #btn1 {
+    width: 90px !important;
+    font-size: 11px !important;
+  }
+
+  #btn2 {
+    width: 85px !important;
+    font-size: 11px !important;
+  }
+  .hire-view-btn {
+    width: 90px !important;
+    font-size: 11px !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  h2 {
+    font-size: 28px !important;
+  }
+  .paragraph {
+    font-size: 14px !important;
+  }
+  #btn1 {
+    width: 85px !important;
+    font-size: 9px !important;
+  }
+
+  #btn2 {
+    width: 80px !important;
+    font-size: 9px !important;
+  }
+  .hire-view-btn {
+    width: 85px !important;
+    font-size: 9px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .hire-view-btn {
+    width: 95px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hire-view-btn {
+    width: 90px !important;
+    font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hire-view-btn {
+    width: 85px !important;
+    font-size: 9px !important;
   }
 }
